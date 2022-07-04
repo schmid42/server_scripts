@@ -1,4 +1,6 @@
 fonts/
 client_scripts/
 
-chocolatey/*.txt
+chocolatey/install.txt
+chocolatey/uninstall.txt
+chocolatey/upgrade.txt
