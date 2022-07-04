@@ -1,0 +1,40 @@
+<LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification" xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout" xmlns:taskbar="http://schemas.microsoft.com/Start/2014/TaskbarLayout">
+  <LayoutOptions StartTileGroupCellWidth="6" />
+  <DefaultLayoutOverride>
+    <StartLayoutCollection>
+      <defaultlayout:StartLayout GroupCellWidth="6">
+        <start:Group Name="Office">
+          <start:DesktopApplicationTile Size="2x2" Column="2" Row="0" DesktopApplicationID="Microsoft.Office.EXCEL.EXE.15" />
+          <start:DesktopApplicationTile Size="2x2" Column="4" Row="2" DesktopApplicationID="TheDocumentFoundation.LibreOffice.Impress" />
+          <start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationID="Microsoft.Office.WINWORD.EXE.15" />
+          <start:DesktopApplicationTile Size="2x2" Column="0" Row="2" DesktopApplicationID="TheDocumentFoundation.LibreOffice.Writer" />
+          <start:DesktopApplicationTile Size="2x2" Column="4" Row="0" DesktopApplicationID="Microsoft.Office.POWERPNT.EXE.15" />
+          <start:DesktopApplicationTile Size="2x2" Column="2" Row="2" DesktopApplicationID="TheDocumentFoundation.LibreOffice.Calc" />
+        </start:Group>
+        <start:Group Name="Internet">
+          <start:DesktopApplicationTile Size="2x2" Column="4" Row="0" DesktopApplicationID="{6D809377-6AF0-444B-8957-A3773F02200E}\SeaDrive\bin\seadrive-gui.exe" />
+          <start:DesktopApplicationTile Size="2x2" Column="2" Row="0" DesktopApplicationID="D78BF5DD33499EC2" />
+          <start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationID="308046B0AF4A39CB" />
+        </start:Group>
+        <start:Group Name="Grafik">
+          <start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationID="{6D809377-6AF0-444B-8957-A3773F02200E}\ImageGlass\ImageGlass.exe" />
+          <start:DesktopApplicationTile Size="2x2" Column="2" Row="0" DesktopApplicationID="{6D809377-6AF0-444B-8957-A3773F02200E}\GIMP 2\bin\gimp-2.10.exe" />
+          <start:DesktopApplicationTile Size="2x2" Column="4" Row="0" DesktopApplicationID="{6D809377-6AF0-444B-8957-A3773F02200E}\Inkscape\bin\inkscape.exe" />
+        </start:Group>
+        <start:Group Name="Systrem">
+          <start:DesktopApplicationTile Size="2x2" Column="4" Row="0" DesktopApplicationID="{6D809377-6AF0-444B-8957-A3773F02200E}\SumatraPDF\SumatraPDF.exe" />
+          <start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationID="{6D809377-6AF0-444B-8957-A3773F02200E}\KeePassXC\KeePassXC.exe" />
+          <start:DesktopApplicationTile Size="2x2" Column="2" Row="0" DesktopApplicationID="{7C5A40EF-A0FB-4BFC-874A-C0F2E0B9FA8E}\SpeedCrunch\speedcrunch.exe" />
+        </start:Group>
+      </defaultlayout:StartLayout>
+    </StartLayoutCollection>
+  </DefaultLayoutOverride>
+  <CustomTaskbarLayoutCollection PinListPlacement="Replace">
+    <defaultlayout:TaskbarLayout>
+      <taskbar:TaskbarPinList>
+        <taskbar:DesktopApp DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\System Tools\File Explorer.lnk" />
+        <taskbar:DesktopApp DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Firefox.lnk" />
+      </taskbar:TaskbarPinList>
+    </defaultlayout:TaskbarLayout>
+  </CustomTaskbarLayoutCollection>
+</LayoutModificationTemplate>

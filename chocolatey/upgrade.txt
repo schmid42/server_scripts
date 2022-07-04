@@ -1,0 +1,14 @@
+7zip
+sumatrapdf
+microsoft-teams.install
+greenshot
+firefox
+thunderbird
+gimp
+inkscape
+krita
+imageglass
+vscode
+shotcut
+vlc
+obs-studio
