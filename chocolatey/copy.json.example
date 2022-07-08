@@ -1,0 +1,9 @@
+{
+    "urlLog": "http://192.168.0.1/",
+    "listPaths": {
+        "install": "\\\\server\\share\\install.txt",
+        "uninstall": "\\\\server\\share\\uninstall.txt",
+        "upgrade": "\\\\server\\share\\\\upgrade.txt"
+    },
+    "token": "Bearer TOKEN"
+}

@@ -4,3 +4,4 @@ client_scripts/
 chocolatey/install.txt
 chocolatey/uninstall.txt
 chocolatey/upgrade.txt
+chocolatey/config.json
