@@ -8,7 +8,7 @@
 #>
 
 # load configuration file
-$config = Get-Content -Path ./config.json | ConvertFrom-Json
+$config = Get-Content -Path $env:commonprogramfiles\chocolatey\config.json | ConvertFrom-Json
 
 # the url of the REST api for log messages
 $urlLog   = $config.urlLog

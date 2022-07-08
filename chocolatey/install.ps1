@@ -2,13 +2,13 @@
 .Synopsis
    Starts chocolatey install and logs results to logserver.
 .NOTES
-   Version:        0.1
+   Version:        0.2
    Author:         Peter Schmid <schmidp@edith-stein-schule.net>
    Creation Date:  25.03.2022
 #>
 
 # load configuration file
-$config = Get-Content -Path ./config.json | ConvertFrom-Json
+$config = Get-Content -Path $env:commonprogramfiles\chocolatey\config.json | ConvertFrom-Json
 
 # the url of the REST api for log messages
 $urlLog   = $config.urlLog
